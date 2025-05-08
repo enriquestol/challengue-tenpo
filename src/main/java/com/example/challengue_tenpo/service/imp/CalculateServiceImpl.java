@@ -46,6 +46,7 @@ public class CalculateServiceImpl implements CalculateService {
 
         CalcResponse response = new CalcResponse();
         response.setResult(result);
+        response.setPercentageUsed(percentage);
         return response;
     }
 

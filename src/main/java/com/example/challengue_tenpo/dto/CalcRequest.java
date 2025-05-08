@@ -11,3 +11,4 @@ public class CalcRequest {
     private Double num1;
     private Double num2;
 }
+
